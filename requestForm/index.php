@@ -128,91 +128,7 @@ $xmlBody = <<<XML
       <wsli:PortalCreateServiceRequestLICARD>
         <wsli:Reason>?</wsli:Reason>
         <wsli:InObject>
-           <wsli:SRType>Потенциальный клиент</wsli:SRType>
-           <wsli:SRSubType>Потенциальный клиент Teboil</wsli:SRSubType>
-           <wsli:Category>ЛИКАРД</wsli:Category>
-           <wsli:Source>Веб-сайт Teboil</wsli:Source>
-           <wsli:LOYMemberNum>?</wsli:LOYMemberNum>
-           <wsli:LOYMemberId>?</wsli:LOYMemberId>
-           <wsli:LOYMemberW4Id>?</wsli:LOYMemberW4Id>
-           <wsli:AccountId>?</wsli:AccountId>
-           <wsli:AccountW4Id>?</wsli:AccountW4Id>
-           <wsli:AccountContactId>?</wsli:AccountContactId>
-           <wsli:B2BCardNumber>?</wsli:B2BCardNumber>
-           <wsli:AccountName><![CDATA[{$_POST['company-name']}]]></wsli:AccountName>
-           <wsli:City><![CDATA[{$cityTotal}]]></wsli:City>
-           <wsli:CityFIASCode/>
-           <wsli:DeclaredVolume>100</wsli:DeclaredVolume>
-           <wsli:LastName><![CDATA[{$_POST['lastname']}]]></wsli:LastName>
-           <wsli:FirstName><![CDATA[{$_POST['firstname']}]]></wsli:FirstName>
-           <wsli:MiddleName><![CDATA[{$_POST['second-name']}]]></wsli:MiddleName>
-           <wsli:PhoneNumber><![CDATA[{$phone}]]></wsli:PhoneNumber>
-           <wsli:Email><![CDATA[{$_POST['email']}]]></wsli:Email>
-           <wsli:CallTimeHour>?</wsli:CallTimeHour>
-           <wsli:CallTimeMinutes>?</wsli:CallTimeMinutes>
-           <wsli:AccountType>Commercial</wsli:AccountType>
-           <wsli:FederalLawFlg>?</wsli:FederalLawFlg>
-           <wsli:Abstract>?</wsli:Abstract>
-           <wsli:VechicleCount>?</wsli:VechicleCount>
-           <wsli:CardCount>?</wsli:CardCount>
-           <wsli:OKVEDCode>?</wsli:OKVEDCode>
-           <wsli:OKVEDComment>?</wsli:OKVEDComment>  
-           <wsli:OKVEDAll>?</wsli:OKVEDAll>
-           <wsli:Comment>?</wsli:Comment>
-           <wsli:LanguageCode>?</wsli:LanguageCode>
-           <wsli:CEOLastName><![CDATA[{$_POST['name']}]]></wsli:CEOLastName>
-           <wsli:CEOFirstName>?</wsli:CEOFirstName>
-           <wsli:CEOMiddleName>?</wsli:CEOMiddleName>
-           <wsli:ChiefAccountantLastName>?</wsli:ChiefAccountantLastName>
-           <wsli:ChiefAccountantFirstName>?</wsli:ChiefAccountantFirstName>
-           <wsli:ChiefAccountantMiddleName>?</wsli:ChiefAccountantMiddleName>
-           <wsli:JurAddrCity><![CDATA[{$_POST['JurAddrCity']}]]></wsli:JurAddrCity>
-           <wsli:JurAddrCityFIASCode><![CDATA[{$_POST['JurAddrCityFIASCode']}]]></wsli:JurAddrCityFIASCode>
-           <wsli:JurAddrCountry>RUS</wsli:JurAddrCountry>
-           <wsli:JurAddrCorps><![CDATA[{$_POST['JurAddrCorps']}]]></wsli:JurAddrCorps>
-           <wsli:JurAddrDistrict><![CDATA[{$_POST['JurAddrDistrict']}]]></wsli:JurAddrDistrict>
-           <wsli:JurAddrDistrictFIASCode><![CDATA[{$_POST['JurAddrDistrictFIASCode']}]]></wsli:JurAddrDistrictFIASCode>
-           <wsli:JurAddrFlat><![CDATA[{$_POST['JurAddrFlat']}]]></wsli:JurAddrFlat>
-           <wsli:JurAddrHouse><![CDATA[{$_POST['JurAddrHouse']}]]></wsli:JurAddrHouse>
-           <wsli:JurAddrSettlement><![CDATA[{$_POST['JurAddrSettlement']}]]></wsli:JurAddrSettlement>
-           <wsli:JurAddrSettlementFIASCode><![CDATA[{$_POST['JurAddrSettlementFIASCode']}]]></wsli:JurAddrSettlementFIASCode>
-           <wsli:JurAddrPostalCode><![CDATA[{$_POST['JurAddrPostalCode']}]]></wsli:JurAddrPostalCode>
-           <wsli:JurAddrRegion><![CDATA[{$_POST['JurAddrRegion']}]]></wsli:JurAddrRegion>
-           <wsli:JurAddrRegionFIASCode><![CDATA[{$_POST['JurAddrRegionFIASCode']}]]></wsli:JurAddrRegionFIASCode>
-           <wsli:JurAddrStreet><![CDATA[{$_POST['JurAddrStreet']}]]></wsli:JurAddrStreet>
-           <wsli:JurAddrStreetFIASCode><![CDATA[{$_POST['JurAddrStreetFIASCode']}]]></wsli:JurAddrStreetFIASCode>
-           <wsli:MailAddrCity>?</wsli:MailAddrCity>
-           <wsli:MailAddrCityFIASCode>?</wsli:MailAddrCityFIASCode>
-           <wsli:MailAddrCountry>?</wsli:MailAddrCountry>
-           <wsli:MailAddrCorps>?</wsli:MailAddrCorps>
-           <wsli:MailAddrDistrict>?</wsli:MailAddrDistrict>
-           <wsli:MailAddrDistrictFIASCode>?</wsli:MailAddrDistrictFIASCode>
-           <wsli:MailAddrFlat>?</wsli:MailAddrFlat>
-           <wsli:MailAddrHouse>?</wsli:MailAddrHouse>
-           <wsli:MailAddrSettlement>?</wsli:MailAddrSettlement>
-           <wsli:MailAddrSettlementFIASCode>?</wsli:MailAddrSettlementFIASCode>
-           <wsli:MailAddrPostalCode>?</wsli:MailAddrPostalCode>
-           <wsli:MailAddrRegion>?</wsli:MailAddrRegion>
-           <wsli:MailAddrRegionFIASCode>?</wsli:MailAddrRegionFIASCode>
-           <wsli:MailAddrStreet>?</wsli:MailAddrStreet>
-           <wsli:MailAddrStreetFIASCode>?</wsli:MailAddrStreetFIASCode>
-           <wsli:MobileNumber><![CDATA[{$mobile}]]></wsli:MobileNumber>
-           <wsli:INN><![CDATA[{$_POST['inn']}]]></wsli:INN>
-           <wsli:KPP><![CDATA[{$_POST['kpp']}]]></wsli:KPP>
-           <wsli:OGRN><![CDATA[{$_POST['ogrn']}]]></wsli:OGRN>
-           <wsli:OKPO>?</wsli:OKPO>
-           <wsli:BankName><![CDATA[{$_POST['bank-name']}]]></wsli:BankName>
-           <wsli:BankIdentifier><![CDATA[{$_POST['bik']}]]></wsli:BankIdentifier>
-           <wsli:BankAccountNumber><![CDATA[{$_POST['accnumber']}]]></wsli:BankAccountNumber>
-           <wsli:BankSWIFTCode>?</wsli:BankSWIFTCode>
-           <wsli:CompanyStatus>?</wsli:CompanyStatus>
-             <wsli:Attachments>
-               <wsli:Attachment>
-                  <wsli:FileName>?</wsli:FileName>
-                  <wsli:FileExt>?</wsli:FileExt>
-                  <wsli:FileData>cid:246347006664</wsli:FileData>
-               </wsli:Attachment>
-            </wsli:Attachments>
+           // Тело формы
          </wsli:InObject>
          <wsli:UserInfo>?</wsli:UserInfo>
       </wsli:PortalCreateServiceRequestLICARD>
@@ -221,7 +137,7 @@ $xmlBody = <<<XML
 XML;
 
 curl_setopt_array($curl, array(
-    CURLOPT_URL => 'http://'.getenv('IP_SIEBEL_CRM').':7120/LKB_SBL_ServiceRequest/proxy/ProcessServiceRequest',
+    CURLOPT_URL => '',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,
